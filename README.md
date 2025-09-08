@@ -4,7 +4,7 @@ Una aplicación web completa desarrollada en Angular 17+ que simula una Pokédex
 
 ## 🌐 **Aplicación en Vivo**
 
-**🔗 [Acceder a la Aplicación](https://gabarod.github.io/PokedexApp/login)**
+**🔗 [Acceder a la Aplicación](https://gabarod.github.io/PokedexApp)**
 
 *Usa las credenciales de demo: `test@pokemon.com` con cualquier contraseña*
 
