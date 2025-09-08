@@ -31,7 +31,7 @@ jobs:
         node-version: '20'
         
     - name: Install dependencies
-      run: cd pokemon-app && npm ci --legacy-peer-deps
+      run: cd pokemon-app && npm install --legacy-peer-deps
       
     - name: Build Angular project
       run: cd pokemon-app && npm run build -- --configuration production
