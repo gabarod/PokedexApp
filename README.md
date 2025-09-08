@@ -92,34 +92,34 @@ ng build --configuration production
 ## 🎯 Funcionalidades Desarrolladas
 
 ### **Sistema de Pokédex**
-- Implementé un sistema completo de búsqueda y filtrado de Pokémon
-- Desarrollé algoritmos de búsqueda eficientes con debounce
-- Creé un sistema de caché para optimizar el rendimiento
-- Implementé paginación virtual para manejar grandes datasets
+- Sistema completo de búsqueda y filtrado de Pokémon
+- Algoritmos de búsqueda eficientes con debounce
+- Sistema de caché para optimizar el rendimiento
+- Paginación virtual para manejar grandes datasets
 
 ### **Simulador de Batallas**
-- Desarrollé fórmulas de daño balanceadas basadas en las mecánicas oficiales
-- Implementé sistema de efectividad de tipos con multiplicadores precisos
-- Creé sistema de ataques críticos y variaciones de daño
-- Desarrollé interfaz de batalla con animaciones fluidas
+- Fórmulas de daño balanceadas basadas en las mecánicas oficiales
+- Sistema de efectividad de tipos con multiplicadores precisos
+- Sistema de ataques críticos y variaciones de daño
+- Interfaz de batalla con animaciones fluidas
 
 ### **Gestión de Equipos**
-- Implementé sistema de creación y edición de equipos
-- Desarrollé análisis de cobertura de tipos para estrategias
-- Creé sistema de validación de equipos competitivos
-- Implementé exportación/importación de equipos
+- Sistema de creación y edición de equipos
+- Análisis de cobertura de tipos para estrategias
+- Sistema de validación de equipos competitivos
+- Exportación/importación de equipos
 
 ### **Sistema de Usuario**
-- Desarrollé autenticación segura con JWT
-- Implementé sistema de roles y permisos
-- Creé perfil de usuario con estadísticas personalizadas
-- Desarrollé sistema de notificaciones
+- Autenticación segura con JWT
+- Sistema de roles y permisos
+- Perfil de usuario con estadísticas personalizadas
+- Sistema de notificaciones
 
 ### **Internacionalización**
-- Implementé sistema completo de traducciones
-- Desarrollé cambio de idioma dinámico
-- Creé archivos de traducción para ES/EN/PT
-- Implementé formateo de fechas y números por región
+- Sistema completo de traducciones
+- Cambio de idioma dinámico
+- Archivos de traducción para ES/EN/PT
+- Formateo de fechas y números por región
 
 ## 🏗️ Arquitectura del Proyecto
 
