@@ -2,6 +2,12 @@
 
 Una aplicación web completa desarrollada en Angular 17+ que simula una Pokédex interactiva con funcionalidades avanzadas de gestión de equipos, batallas y análisis de Pokémon.
 
+## 🌐 **Aplicación en Vivo**
+
+**🔗 [Acceder a la Aplicación](https://gabarod.github.io/PokedexApp/login)**
+
+*Usa las credenciales de demo: `test@pokemon.com` con cualquier contraseña*
+
 ## 🚀 Características Principales
 
 ### 📱 **Pokédex Completa**
