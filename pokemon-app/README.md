@@ -42,6 +42,11 @@ Una aplicación web completa desarrollada en Angular 17+ que simula una Pokédex
 - **Sistema de roles** y permisos
 - **Almacenamiento local** seguro
 
+### 🔑 **Credenciales de Acceso**
+- **Usuario por defecto**: `test@pokemon.com`
+- **Contraseña**: Cualquier contraseña (sistema de demo)
+- **Nota**: Este es un sistema de demostración, cualquier contraseña será aceptada
+
 ## 🛠️ Tecnologías Utilizadas
 
 - **Frontend**: Angular 17+ con Standalone Components

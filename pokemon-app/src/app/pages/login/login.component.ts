@@ -69,6 +69,13 @@ import { TranslatePipe } from '../../pipes/translate.pipe';
           </div>
         </form>
 
+        <div class="demo-credentials">
+          <h3>Credenciales de Demo</h3>
+          <p><strong>Usuario:</strong> test@pokemon.com</p>
+          <p><strong>Contraseña:</strong> Cualquier contraseña</p>
+          <small>Este es un sistema de demostración</small>
+        </div>
+
         <div class="auth-footer">
           <p>{{ 'noAccount' | translate }} <a routerLink="/register">{{ 'registerHere' | translate }}</a></p>
         </div>
@@ -135,6 +142,38 @@ import { TranslatePipe } from '../../pipes/translate.pipe';
         font-size: 16px;
         font-weight: 600;
         margin-top: 8px;
+      }
+    }
+
+    .demo-credentials {
+      margin: 24px 0;
+      padding: 16px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      text-align: center;
+      
+      h3 {
+        margin: 0 0 12px 0;
+        color: #374151;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      
+      p {
+        margin: 4px 0;
+        color: #4b5563;
+        font-size: 14px;
+        
+        strong {
+          color: #1f2937;
+        }
+      }
+      
+      small {
+        color: #6b7280;
+        font-size: 12px;
+        font-style: italic;
       }
     }
 
