@@ -30,12 +30,13 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
+        cache-dependency-path: 'pokemon-app/package-lock.json'
         
     - name: Install dependencies
-      run: npm ci
+      run: cd pokemon-app && npm ci
       
     - name: Build Angular project
-      run: npm run build -- --configuration production
+      run: cd pokemon-app && npm run build -- --configuration production
       
     - name: Setup Pages
       uses: actions/configure-pages@v5
@@ -43,7 +44,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: './dist/pokemon-app'
+        path: './pokemon-app/dist/pokemon-app'
         
     - name: Deploy to GitHub Pages
       id: deployment
